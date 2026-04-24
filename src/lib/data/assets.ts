@@ -77,6 +77,9 @@ const Assets = {
 	Fmod: asset('fmod-light.svg', 'fmod-dark.svg'),
 	SQL: asset('sql.svg'),
 	CAD: asset('cad.svg'),
+
+	// PROJECT IMAGES
+	diyCompass: asset('diy-mincraft-compass.gif')  
 };
 
 export default Assets;

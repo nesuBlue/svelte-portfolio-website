@@ -51,6 +51,8 @@ body {
 		--ring: 243 0% 100%;
 		--radius: 0.5rem;
 	}
+	
+	
 }
 
 @layer base {

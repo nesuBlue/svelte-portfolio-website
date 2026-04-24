@@ -14,9 +14,10 @@ const hero: {
 		"Hi, I'm Anesu. Post-grad programmer and musician. Mostly though, I like to make things.",
 	links: [
 		{ label: 'GitHub', href: 'https://github.com', icon: 'i-carbon-logo-github' },
+		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' },
 		{ label: 'LinkedIn', href: 'https://linkedin.com', icon: 'i-carbon-logo-linkedin' },
-		{ label: 'Twitter', href: 'https://twitter.com', icon: 'i-carbon-logo-twitter' },
-		{ label: 'Email', href: 'mailto:riadh.adrani@pm.me', icon: 'i-carbon-at' }
+		
+		
 	]
 };
 

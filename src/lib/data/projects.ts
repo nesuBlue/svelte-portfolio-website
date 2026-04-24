@@ -159,10 +159,10 @@ const items: Array<Project> = [
 		color: '#7f8c8d',
 		description: 'A physical recreation of the Minecraft compass that points to a specific real-world coordinate using GPS.',
 		shortDescription: 'Real-world Minecraft compass hardware.',
-		links: [{ to: 'https://github.com/', label: 'GitHub' }],
-		logo: Assets.Unknown,
+		links: [{ to: 'https://github.com/nesuBlue/diy-mincraft-compass-project', label: 'GitHub' }],
+		logo: Assets.diyCompass,
 		name: 'DIY Minecraft Compass',
-		period: { from: new Date(2024, 2, 1) },
+		period: { from: new Date(2026, 3, 1) },
 		skills: getSkills('arduino', 'gps', '3d-printing'),
 		type: 'Hardware'
 	},
@@ -207,7 +207,7 @@ const items: Array<Project> = [
 		color: '#8e44ad',
 		description: 'An immersive 3D spatial installation designed for VR headsets, focusing on environmental storytelling.',
 		shortDescription: 'Immersive VR spatial installation.',
-		links: [{ to: 'https://example.com/', label: 'Case Study' }],
+		links: [{ to: 'https://example.com/', label: 'Case Study' }],	
 		logo: Assets.Unknown,
 		name: '3D Spatial VR Installation',
 		period: { from: new Date(2023, 7, 1) },
@@ -215,15 +215,15 @@ const items: Array<Project> = [
 		type: 'VR Installation'
 	},
 	{
-		slug: 'vr-space-trucker',
+		slug: 'googie-space-vr',
 		color: '#2c3e50',
 		description: 'A VR game where players navigate a spacecraft through debris fields to deliver cargo across the galaxy.',
 		shortDescription: 'Space simulation VR game.',
 		links: [{ to: 'https://github.com/', label: 'GitHub' }],
 		logo: Assets.Unknown,
-		name: 'VR Space Trucker',
+		name: 'Googie Space Vr',
 		period: { from: new Date(2023, 11, 1) },
-		skills: getSkills('unity', 'csharp', 'vr-toolkit'),
+		skills: getSkills('unity', 'csharp', 'vr-toolkit', 'wwise'),
 		type: 'Game Development'
 	},
 	{
