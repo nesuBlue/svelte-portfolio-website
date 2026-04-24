@@ -69,7 +69,14 @@ const Assets = {
 	Jest: asset('jest.png'),
 	Unocss: asset('unocss.svg'),
 	Ruvy: asset('ruvy.svg'),
-	Postcss: asset('postcss.svg')
+	Postcss: asset('postcss.svg'),
+
+	Unity: asset('unity-light.svg','unity-dark.svg' ),
+	Arduino: asset('arduino.svg'),
+	Wwise: asset('wwise-dark.svg','wwise-light.svg'),
+	Fmod: asset('fmod-light.svg', 'fmod-dark.svg'),
+	SQL: asset('sql.svg'),
+	CAD: asset('cad.svg'),
 };
 
 export default Assets;

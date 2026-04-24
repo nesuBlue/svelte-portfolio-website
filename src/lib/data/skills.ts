@@ -140,6 +140,87 @@ const items = [
 		logo: Assets.Svelte,
 		name: 'Svelte',
 		category: 'library'
+	}),
+	defineSkill({
+		slug: 'csharp',
+		color: 'purple',
+		description:
+			'C# is a modern, object-oriented programming language developed by Microsoft. I use it primarily for game development in Unity and building desktop applications.',
+		logo: Assets.Csharp,
+		name: 'C#',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'cpp',
+		color: 'blue',
+		description:
+			'C++ is a powerful, high-performance programming language. I use it for systems programming, audio plugin development, and performance-critical applications.',
+		logo: Assets.Cpp,
+		name: 'C++',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'python',
+		color: 'yellow',
+		description:
+			'Python is a versatile, high-level programming language I use for scripting, data processing, automation, and rapid prototyping.',
+		logo: Assets.Python,		
+		name: 'Python',
+		category: 'pro-lang'
+	}),
+	defineSkill({
+		slug: 'unity',
+		color: 'grey',
+		description:
+			'Unity is a cross-platform game engine I use to build interactive experiences, games, and simulations, working alongside C# for both 2D and 3D projects.',
+		logo: Assets.Unity,
+		name: 'Unity',
+		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'arduino',
+		color: 'teal',
+		description:
+			'Arduino is an open-source electronics platform I use for physical computing and maker projects, combining hardware and software to bring ideas to life.',
+		logo: Assets.Arduino,
+		name: 'Arduino',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'wwise',
+		color: 'blue',
+		description:
+			'Wwise is an interactive audio middleware platform by Audiokinetic. I use it to design and implement adaptive, event-driven audio systems in games and interactive media.',
+		logo: Assets.Wwise,
+		name: 'Wwise',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'fmod',
+		color: 'black',
+		description:
+			'FMOD is a professional audio engine and middleware used in game development. I use it to implement dynamic soundscapes and real-time audio logic.',
+		logo: Assets.Fmod,
+		name: 'FMOD',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'sql',
+		color: 'orange',
+		description:
+			'SQL is the standard language for managing and querying relational databases. I use it to design schemas, write queries, and handle data across projects.',
+		logo: Assets.SQL,
+		name: 'SQL',
+		category: 'db'
+	}),
+	defineSkill({
+		slug: 'cad',
+		color: 'red',
+		description:
+			'CAD tools let me design and model physical objects for fabrication. I use them as part of my maker practice for 3D printing, laser cutting, and prototyping.',
+		logo: Assets.CAD,
+		name: 'CAD',
+		category: 'design'
 	})
 ] as const;
 

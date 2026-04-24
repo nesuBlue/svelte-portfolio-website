@@ -5,28 +5,40 @@ const title = 'Education';
 
 const items: Array<Education> = [
 	{
-		degree: 'Bachelor degree of Computer Science',
-		description: '',
-		location: 'Tunisia',
+		degree: 'MSc. Games & Extended Reality',
+		description: 'Advanced study of immersive technologies, virtual reality, and interactive game systems. Specialized in algorithmic spatial audio and VR system architecture.',
+		location: 'Salford, UK',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'ISTIC',
-		period: { from: new Date(2020, 0, 1), to: new Date(2022, 5, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item',
-		subjects: ['C', 'Algorithm', 'Algebra', 'Python', 'C++', 'Java', 'English']
+		name: 'Master of Science',
+		organization: 'University of Salford',
+		period: { from: new Date(2023, 8, 1), to: new Date(2024, 8, 1) },
+		shortDescription: 'Focusing on VR, AR, and Spatial Audio systems.',
+		slug: 'msc-games-xr-salford',
+		subjects: ['Extended Reality', 'C++', 'Spatial Audio', 'Unity', 'Real-time Rendering', 'Agile']
 	},
 	{
-		degree: 'PhD of Computer Science',
-		description: '',
-		location: 'USA',
+		degree: 'BA. of Music & Production',
+		description: 'Achieved Upper Second Class Honours (2:1) with a 68% average. Focused on electronic music, signal processing, and hardware synthesis.',
+		location: 'Manchester, UK',
 		logo: Assets.Unknown,
-		name: '',
-		organization: 'MIT',
-		period: { from: new Date(2023, 0, 1) },
-		shortDescription: '',
-		slug: 'dummy-education-item-2',
-		subjects: ['Assembly', 'Rust', 'Computer Architecture', 'Algorithms and Data structures']
+		name: 'Bachelor of Arts',
+		organization: 'British Institute of Modern Music (BIMM)',
+		period: { from: new Date(2020, 8, 1), to: new Date(2023, 5, 1) },
+		shortDescription: 'Graduated with 2:1 (68%) focusing on production and hardware synthesis.',
+		slug: 'ba-music-production-bimm',
+		subjects: ['Music Theory', 'Audio Engineering', 'Analog Synthesis', 'MIDI Systems', 'CAD for Hardware']
+	},
+	{
+		degree: 'CertHE. Computer Science',
+		description: 'Foundation in software development, computational logic, and systems architecture.',
+		location: 'Brighton, UK',
+		logo: Assets.Unknown,
+		name: 'Certificate of Higher Education',
+		organization: 'University of Brighton',
+		period: { from: new Date(2019, 8, 1), to: new Date(2020, 5, 1) },
+		shortDescription: 'Foundational computer science and software engineering.',
+		slug: 'certhe-cs-brighton',
+		subjects: ['Algorithms', 'Java', 'Data Structures', 'Networking', 'Boolean Algebra']
 	}
 ];
 
